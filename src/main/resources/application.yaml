@@ -1,0 +1,7 @@
+server:
+  port: 8037
+  servlet:
+    encoding:
+      charset: "utf-8"
+baseValue: 20
+

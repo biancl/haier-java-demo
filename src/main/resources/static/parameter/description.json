@@ -1,0 +1,22 @@
+{
+  "id": "0",
+  "description":"发泡工艺逻辑",
+  "input":
+  [
+    {"name": "x",
+      "type": "number",
+      "units": "℃",
+      "description": "A材料料温"},
+    {"name": "y",
+      "type": "number",
+      "units": "℃",
+      "description": "B材料料温"}
+  ],
+  "output":
+  [
+    {"name": "z",
+      "type": "number",
+      "units": "g/cm³",
+      "description": "密度值"}
+  ]
+}
