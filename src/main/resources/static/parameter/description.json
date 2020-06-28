@@ -6,11 +6,11 @@
     {"name": "x",
       "type": "number",
       "units": "℃",
-      "description": "A材料料温"},
+      "description": "A材料料温，范围16~22之间"},
     {"name": "y",
       "type": "number",
       "units": "℃",
-      "description": "B材料料温"}
+      "description": "B材料料温，范围16~22之间"}
   ],
   "output":
   [

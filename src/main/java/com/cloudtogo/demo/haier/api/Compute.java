@@ -15,10 +15,10 @@ public class Compute {
     @RequestMapping(method = RequestMethod.GET ,value="/density")
     public String getPlusValue(@RequestParam double x, @RequestParam double y){
         if(x<16|x>25){
-            return "A材料温度异常，请重新输入";
+            return "A材料温度异常，请重新输入，温度范围16~25";
         }
         if(y<16|y>25){
-            return "B材料温度异常，请重新输入";
+            return "B材料温度异常，请重新输入，温度范围16~25";
         }
         double z=Math.round((y-x)* Math.random()*100)/100.00+baseValue;
 
