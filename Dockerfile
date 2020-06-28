@@ -7,5 +7,4 @@ ADD src /code/src
 RUN ["mvn", "clean", "package"]
 RUN ["ls","-l","/code/target"]
 EXPOSE 8080
-
-ENTRYPOINT [ "java", "-jar", "/code/target/haier-java-demo:0.0.1-SNAPSHOT.jar" ]
+ENTRYPOINT [ "java", "-jar", "/code/target/haier-java-demo-0.0.1-SNAPSHOT.jar" ]
