@@ -21,9 +21,11 @@ public class Compute {
             return "B材料温度异常，请重新输入，温度范围16~25";
         }
         double z=Math.round((y-x)* Math.random()*100)/100.00+baseValue;
-
-        return "A料料温为"+x+"℃</br>" +"B材料料温为"+y+"℃</br>"+
+        String result="A料料温为"+x+"℃</br>" +"B材料料温为"+y+"℃</br>"+
                 ""+"密度值为："+String.format("%.2f", z)+"g/cm³";
+
+        System.out.println("访问日志："+result);
+        return result;
     }
 
 }
