@@ -25,7 +25,7 @@ public class Compute {
                 ""+"密度值为："+String.format("%.2f", z)+"g/cm³";
 
         System.out.println("访问日志："+result);
-        return result;
+        return z+"";
     }
 
 }
